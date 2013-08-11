@@ -1,0 +1,27 @@
+{
+  "name": "Hacku13",
+  "description": "Getting background info",
+  "version": "1.80",
+
+  "permissions": [
+    "activeTab",
+    "tabs", 
+    "http://in.news.yahoo.com/*.html",
+    "https://access.alchemyapi.com/*"
+],
+
+"content_scripts": [
+    {
+      "matches": ["http://in.news.yahoo.com/*.html","https://in.news.yahoo.com/*.html"],
+      "js": ["jquery.js","contentscript.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "background": {
+    "scripts": ["jquery.js","background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://access.alchemyapi.com; object-src 'self'"
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="http://www.iconj.com/ico/h/t/ht0py9v5zt.ico" type="image/x-icon" />
+	<title>Picthinker-HackU13</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="dist/css/bootstrap.css">
+ 	<!-- Latest compiled and minified JavaScript -->
+ 	<script src="js/jquery-1.10.1.min.js"></script>
+	<script src="dist/js/bootstrap.min.js"></script>
+	<script src="js/hack.js"></script>
+</head>
+<body>
+<div class="navbar">
+	<form id="searchform" class="navbar-form pull-left">
+      <input id="query" type="text"  class="form-control" placeholder="Enter news url here" style="width: 600px;">
+      <button type="submit" id="subbutton" data-loading-text="Loading..." class="btn btn-primary">Get Images</button>
+    </form>
+    <img src="images/yho.png" style="float: right; width: 80px;" alt="Yahoo News!"/>
+</div>
+<div id="loader" style="text-align: center;">
+	<iframe frameborder="0"
+src="http://s.cssdeck.com/labs/full/css3-flickr-loading-animation-spinner//noframe#dontkillanim"></iframe>
+</div>
+    <div id="container" class="well text-center">
+    </div>
+</body>
+</html>
