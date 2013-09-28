@@ -1,7 +1,7 @@
 Picthinker-HackU13
 ==================
 
-The web app searches for relevant images for yahoo news articles by analysing the content of the news feed
+The web application searches for relevant images for yahoo news articles by analysing the content of the news feed
 and generating concept keywords out of it. The keywords are then used to generate tags and flickr photos with
 title,description and tags matching our keyowords are returned. The app returns the 10 most relevant images it 
 manages to find.
