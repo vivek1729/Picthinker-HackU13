@@ -1,4 +1,4 @@
-Picthinker-HackU13
+Picthinker-HackU2013
 ==================
 
 The web application searches for relevant images for yahoo news articles by analysing the content of the news feed
